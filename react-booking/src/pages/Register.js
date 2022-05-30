@@ -44,7 +44,7 @@ export default function Register() {
 
 	return(
 
-		(user.email !== null) ? 
+		(user.accessToken !== null) ? 
 
 		<Navigate to="/courses" />
 
