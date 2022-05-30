@@ -15,7 +15,7 @@ export default function CoursePage() {
 		.then(res => res.json())
 		.then(data => {
 			console.log(data)
-			//storing all the data to our useState allCourses
+			//Storing all the data to our useState allCourses
 			setAllCourses(data)
 		})
 	}

@@ -6,7 +6,7 @@ export default function UserView({coursesData}) {
 
 	const [ courses, setCourses ] = useState([])
 
-	//we write our .map inside the useEffect to render the rapid changes of the data 
+	//We write our .map inside the useEffect to render the rapid changes of the data 
 	useEffect(() => {
 
 		const coursesArr = coursesData.map(course => {

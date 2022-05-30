@@ -1,7 +1,5 @@
 import { useState, useContext } from 'react';
-//React bootstrap components
 import { Navbar, Nav } from 'react-bootstrap';
-//react-router
 import { Link } from 'react-router-dom';
 import UserContext from '../UserContext';
 

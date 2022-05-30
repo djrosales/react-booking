@@ -84,7 +84,7 @@ export default function Login() {
 						//push to the /courses
 						navigate ('/courses')
 					}else{
-						//if not an admin, push to '/' (homepage)
+						//If not an admin, push to '/' (homepage)
 						navigate('/')
 					}
 				})

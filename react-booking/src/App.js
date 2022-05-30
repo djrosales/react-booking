@@ -10,7 +10,7 @@ import ErrorPage from './pages/ErrorPage';
 import { Container } from 'react-bootstrap';
 import { UserProvider } from './UserContext';
 
-//react-router
+//react-router..
 //BrowserRouter as Router(alternative)
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

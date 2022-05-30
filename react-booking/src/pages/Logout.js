@@ -9,7 +9,7 @@ export default function Logout() {
 	//Clear the localStorage of the user's information
 	unsetUser();
 
-	//Set the user state back to it's original value
+	//Set the user state back to it's original value..
 	useEffect(() => {
 		setUser({
 			/* email: null */

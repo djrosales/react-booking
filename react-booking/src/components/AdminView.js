@@ -1,7 +1,7 @@
-
+import AddCourse from './AddCourse';
 import { useState, useEffect } from 'react';
 import { Table } from 'react-bootstrap';
-import AddCourse from './AddCourse';
+
 
 
 export default function AdminView(props) {

@@ -59,7 +59,7 @@ export default function AddCourse({fetchData}) {
 				fetchData()
 			}
 
-			//reset all states input
+			//reset all states input..
 			setName('')
 			setDescription('')
 			setPrice(0)

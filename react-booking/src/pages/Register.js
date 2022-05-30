@@ -29,7 +29,7 @@ export default function Register() {
 	function registerUser(e) {
 		e.preventDefault();
 
-		//Clear input fields
+		//Clear input fields..
 		setEmail('');
 		setPassword('');
 		setVerifyPassword('');
