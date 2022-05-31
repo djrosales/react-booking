@@ -6,11 +6,11 @@ export default function UserView({coursesData}) {
 
 	const [ courses, setCourses ] = useState([])
 
-	//We write our .map inside the useEffect to render the rapid changes of the data 
+	//We write our .map inside the useEffect to render the rapid changes of the data ..
 	useEffect(() => {
 
 		const coursesArr = coursesData.map(course => {
-			//Only render the active courses
+			//Only render the active courses..
 			if(course.isActive === true) {
 				return(
 
