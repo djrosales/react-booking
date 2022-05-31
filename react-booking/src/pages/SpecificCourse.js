@@ -81,7 +81,7 @@ export default function SpecificCourse() {
 
 				<Card.Body>
 					<Card.Text>{ description }</Card.Text>
-					<h6>Price: Php {parseFloat(price).toExponential(2) } </h6>
+					<h6>Price: Php { price } </h6>
 				</Card.Body>
 
 				<Card.Footer>

@@ -4,7 +4,7 @@ import Highlights from "../components/Highlights";
 export default function Home(){
     return(
         <>
-            <Banner name="Jane" age={25}/>
+            <Banner name="Debbie" age={25}/>
             <Highlights />
          
         
